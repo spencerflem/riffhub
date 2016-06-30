@@ -1,0 +1,102 @@
+body {
+	background-color: #F7F7F7;
+	font-family: 'Book Antiqua', serif;
+}
+
+header {
+	position: fixed;
+	background-color: #F7F7F7;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	padding: 0.3em 0;
+	border-bottom: 0.3rem solid black;
+	display: flex;
+	flex-direction: row;
+}
+
+footer {
+	color: gray;
+	padding: 0.4rem 0;
+	border-top: 0.1rem solid gray;
+	padding-left: 2em;
+}
+
+#header-logo {
+	font-family: 'Permanent Marker', cursive;
+	text-shadow: 0.07em 0.07em orange;
+	font-size: 1.3em;
+	text-decoration: none;
+	color: black;
+	margin: 0 2em;
+}
+
+#header-text {
+	flex-grow: 1;
+	font-family: 'Book Antiqua', serif;
+}
+
+#header-submit {
+	margin: 0 1.3em;
+}
+
+.top {
+	width: 88%;
+	margin: 4rem 0 2rem 0;
+	border: 0;
+}
+
+ul {
+	padding-left: 2em;
+}
+
+ li {
+	display: inline;
+}
+
+ .items {
+	border: 0;
+	padding-top: 0.7em;
+}
+
+ .category ul {
+	border-left: 0.1rem dashed silver;
+}
+
+ .content {
+	text-shadow: 0.07em 0.07em orange;
+	font-family: 'Permanent Marker', cursive;
+}
+
+ .category .content {
+	text-shadow: none;
+}
+
+ .idea .content, .comment .content{
+	font-family: 'Book Antiqua', serif;
+}
+
+ .edit, .delete {
+	font-size: 0.8em;
+	color: gray;
+	padding-left: 0.3rem;
+}
+
+.toggle {
+	font-family: monospace;
+	margin-left: -0.45rem;
+	font-size: 0.7em;
+}
+
+.toggle input {
+	
+}
+
+.toggle input ::before {
+	content: "[-]"
+}
+
+.toggle input :selected {
+	color: gray;
+}

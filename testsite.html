@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" media="all" href="html5reset.css"/>
+		<link rel="stylesheet" media="all" href="testcss.css"/>
+		<link href='https://fonts.googleapis.com/css?family=Permanent+Marker' rel='stylesheet' type='text/css'>
+		<script src="testjs.js"></script>
+		<title>ideasite</title>
+	</head>
+	<body>
+		<header>
+			<a href="http://localhost:3000/" class="left" id="header-logo">ideasite</a>
+			<input type="text" id="header-text" placeholder="New Idea">
+			<input type="submit" id="header-submit" value="+">
+		</header>
+		<div id='main'>
+			<ul class='top'>
+				<li class = "words">
+					<ul class= "items">
+						<li class="toggle"><input type="checkbox"></li>
+						<li class="content">Entertainment</li>
+						<li class="edit">edit</li>
+						<li class="delete">delete</li>
+					</ul>
+				</li>
+				<li>
+					<ul class="category">
+						<li>
+							<ul class="items">
+								<li class="toggle">[-]</li>
+								<li class="content">movies</li>
+								<li class="edit">edit</li>
+								<li class="delete">delete</li>
+							</ul>
+						</li>
+						<li>
+							<ul class="idea">
+								<li>
+									<ul class="items">
+										<li class="toggle">[-]</li>
+										<li class="content">Buddy cop cthulu</li>
+										<li class="edit">edit</li>
+										<li class="delete">delete</li>
+									</ul>
+								</li>
+								<li>
+									<ul class="comment">
+										<li>
+											<ul class="items">
+												<li class="toggle" onclick="javascript:toggle(this)">[-]</li>
+												<li class="content">cthulu cant fit in car- hillaro</li>
+												<li class="edit">edit</li>
+												<li class="delete">delete</li>
+											</ul>
+										</li>
+										<li>
+											<ul class="items">
+												<li class="toggle">[-]</li>
+												<li class="content">doing community service</li>
+												<li class="edit">edit</li>
+												<li class="delete">delete</li>
+											</ul>
+										</li>
+									</ul>
+								</li>
+								<li>
+									<ul class="items">
+										<li class="toggle">[-]</li>
+										<li class="content">Blair Twitch Project</li>
+										<li class="edit">edit</li>
+										<li class="delete">delete</li>
+									</ul>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<ul class= "items">
+						<li class="toggle">[-]</li>
+						<li class="content">Inventions</li>
+						<li class="edit">edit</li>
+						<li class="delete">delete</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		<footer>
+			a spentronics&#0153; digital creation - TODO: NAV, INSERT
+		</footer>
+	</body>
+</html>
